@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>860376808250-dhse0hcl4e58frq5cfepqp04c09kti4i.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.860376808250-dhse0hcl4e58frq5cfepqp04c09kti4i</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDKotsstGSYvOrDnL1Pbd_E1mH09ZzgqB4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>860376808250</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.anoop.parivartan</string>
+	<key>PROJECT_ID</key>
+	<string>parivartan-99624</string>
+	<key>STORAGE_BUCKET</key>
+	<string>parivartan-99624.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:860376808250:ios:debb1f9e34703b69</string>
+	<key>DATABASE_URL</key>
+	<string>https://parivartan-99624.firebaseio.com</string>
+</dict>
+</plist>

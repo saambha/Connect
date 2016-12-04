@@ -7,14 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6EA05D501D3D67AB0040D163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA05D4F1D3D67AB0040D163 /* AppDelegate.swift */; };
-		6EA05D521D3D67AB0040D163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA05D511D3D67AB0040D163 /* ViewController.swift */; };
+		6E0288991D511845004B6187 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0288981D511845004B6187 /* DownloadViewController.swift */; };
+		6E28B7E11D469A820029E776 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E28B7DE1D469A820029E776 /* DraggableView.swift */; };
+		6E28B7E21D469A820029E776 /* DraggableViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E28B7DF1D469A820029E776 /* DraggableViewBackground.swift */; };
+		6E28B7E31D469A820029E776 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E28B7E01D469A820029E776 /* OverlayView.swift */; };
+		6E28B8291D469C670029E776 /* Airport1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7E51D469C670029E776 /* Airport1.png */; };
+		6E28B82A1D469C670029E776 /* Airport2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7E61D469C670029E776 /* Airport2.png */; };
+		6E28B82C1D469C670029E776 /* Arrow_Left2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7E81D469C670029E776 /* Arrow_Left2.png */; };
+		6E28B82D1D469C670029E776 /* Arrow_Right2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7E91D469C670029E776 /* Arrow_Right2.png */; };
+		6E28B82E1D469C670029E776 /* Balloon over Desert 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7EA1D469C670029E776 /* Balloon over Desert 1.jpg */; };
+		6E28B82F1D469C670029E776 /* banner_dubai_Al_Arab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7EB1D469C670029E776 /* banner_dubai_Al_Arab.jpg */; };
+		6E28B8301D469C670029E776 /* bg-addbutton-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7EC1D469C670029E776 /* bg-addbutton-highlighted.png */; };
+		6E28B8311D469C670029E776 /* bg-addbutton-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7ED1D469C670029E776 /* bg-addbutton-highlighted@2x.png */; };
+		6E28B8321D469C670029E776 /* bg-addbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7EE1D469C670029E776 /* bg-addbutton.png */; };
+		6E28B8331D469C670029E776 /* bg-addbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7EF1D469C670029E776 /* bg-addbutton@2x.png */; };
+		6E28B8341D469C670029E776 /* bg-menuitem-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7F01D469C670029E776 /* bg-menuitem-highlighted.png */; };
+		6E28B8351D469C670029E776 /* bg-menuitem-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7F11D469C670029E776 /* bg-menuitem-highlighted@2x.png */; };
+		6E28B8361D469C670029E776 /* bg-menuitem.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7F21D469C670029E776 /* bg-menuitem.png */; };
+		6E28B8371D469C670029E776 /* bg-menuitem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7F31D469C670029E776 /* bg-menuitem@2x.png */; };
+		6E28B8381D469C670029E776 /* Burj_Al_Arab400*300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7F41D469C670029E776 /* Burj_Al_Arab400*300.jpg */; };
+		6E28B8391D469C670029E776 /* burj_khalifa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7F51D469C670029E776 /* burj_khalifa.jpg */; };
+		6E28B83A1D469C670029E776 /* burj-al-arab-dubai-960x640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7F61D469C670029E776 /* burj-al-arab-dubai-960x640.jpg */; };
+		6E28B83D1D469C670029E776 /* Desertsafari.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7F91D469C670029E776 /* Desertsafari.jpg */; };
+		6E28B83E1D469C670029E776 /* DSF.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7FA1D469C670029E776 /* DSF.jpeg */; };
+		6E28B83F1D469C670029E776 /* dubai_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B7FB1D469C670029E776 /* dubai_icon.png */; };
+		6E28B84B1D469C670029E776 /* facebook_Friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8071D469C670029E776 /* facebook_Friends.png */; };
+		6E28B84C1D469C670029E776 /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8081D469C670029E776 /* Facebook.png */; };
+		6E28B84F1D469C670029E776 /* icon-plus-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B80B1D469C670029E776 /* icon-plus-highlighted.png */; };
+		6E28B8501D469C670029E776 /* icon-plus-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B80C1D469C670029E776 /* icon-plus-highlighted@2x.png */; };
+		6E28B8511D469C670029E776 /* icon-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B80D1D469C670029E776 /* icon-plus.png */; };
+		6E28B8521D469C670029E776 /* icon-plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B80E1D469C670029E776 /* icon-plus@2x.png */; };
+		6E28B8531D469C670029E776 /* icon-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B80F1D469C670029E776 /* icon-star.png */; };
+		6E28B8541D469C670029E776 /* icon-star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8101D469C670029E776 /* icon-star@2x.png */; };
+		6E28B8571D469C670029E776 /* like_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8131D469C670029E776 /* like_icon.png */; };
+		6E28B8581D469C670029E776 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8141D469C670029E776 /* like.png */; };
+		6E28B8591D469C670029E776 /* loc1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8151D469C670029E776 /* loc1.jpeg */; };
+		6E28B85A1D469C670029E776 /* loc2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8161D469C670029E776 /* loc2.png */; };
+		6E28B85B1D469C670029E776 /* Metro.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8171D469C670029E776 /* Metro.png */; };
+		6E28B85C1D469C670029E776 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8181D469C670029E776 /* minus.png */; };
+		6E28B85E1D469C670029E776 /* Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B81A1D469C670029E776 /* Plus.png */; };
+		6E28B85F1D469C670029E776 /* plus1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B81B1D469C670029E776 /* plus1.png */; };
+		6E28B8601D469C670029E776 /* popular.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B81C1D469C670029E776 /* popular.png */; };
+		6E28B8611D469C670029E776 /* RedAlert.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B81D1D469C670029E776 /* RedAlert.jpeg */; };
+		6E28B8621D469C670029E776 /* Share.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B81E1D469C670029E776 /* Share.jpeg */; };
+		6E28B8631D469C670029E776 /* silhouette-desert-safari.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B81F1D469C670029E776 /* silhouette-desert-safari.jpg */; };
+		6E28B8651D469C670029E776 /* Ski-Dubai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8211D469C670029E776 /* Ski-Dubai.jpg */; };
+		6E28B8661D469C670029E776 /* SkyDive_Dubai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8221D469C670029E776 /* SkyDive_Dubai.jpg */; };
+		6E28B8671D469C670029E776 /* Sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8231D469C670029E776 /* Sunny.png */; };
+		6E28B8681D469C670029E776 /* Uber.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8241D469C670029E776 /* Uber.jpeg */; };
+		6E28B8691D469C670029E776 /* uber.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28B8251D469C670029E776 /* uber.png */; };
+		6E53DC041D454AFB000D28E3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E53DC031D454AFA000D28E3 /* Info.plist */; };
+		6E53DC061D454B3B000D28E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E53DC051D454B3B000D28E3 /* GoogleService-Info.plist */; };
+		6E6604671D454D0C00941650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E66045E1D454D0C00941650 /* AppDelegate.swift */; };
+		6E6604681D454D0C00941650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E66045F1D454D0C00941650 /* Assets.xcassets */; };
+		6E66046A1D454D0C00941650 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6E6604611D454D0C00941650 /* Base.lproj */; };
+		6E66046B1D454D0C00941650 /* Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E6604621D454D0C00941650 /* Connect.xcdatamodeld */; };
+		6E66046C1D454D0C00941650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6604641D454D0C00941650 /* ViewController.swift */; };
+		6E6604731D454F3B00941650 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6604711D454F3A00941650 /* Contants.swift */; };
+		6E6604741D454F3B00941650 /* InterestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6604721D454F3B00941650 /* InterestVC.swift */; };
 		6EA05D551D3D67AB0040D163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EA05D531D3D67AB0040D163 /* Main.storyboard */; };
-		6EA05D581D3D67AB0040D163 /* Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EA05D561D3D67AB0040D163 /* Connect.xcdatamodeld */; };
 		6EA05D5A1D3D67AB0040D163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA05D591D3D67AB0040D163 /* Assets.xcassets */; };
 		6EA05D5D1D3D67AB0040D163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EA05D5B1D3D67AB0040D163 /* LaunchScreen.storyboard */; };
 		6EA05D681D3D67AB0040D163 /* ConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA05D671D3D67AB0040D163 /* ConnectTests.swift */; };
 		6EA05D731D3D67AB0040D163 /* ConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA05D721D3D67AB0040D163 /* ConnectUITests.swift */; };
+		6EC5B69E1D5F4C7A00A7731C /* FBServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC5B69D1D5F4C7A00A7731C /* FBServiceController.swift */; };
+		7AFC13F26DBB1FAB310AD4DA /* Pods_Connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CF6CC356AE607D61D62798 /* Pods_Connect.framework */; };
+		9D8AF6143276EDDF5C957A6D /* Pods_ConnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB910745F8A068EB4FF0B8FC /* Pods_ConnectTests.framework */; };
+		E682ABA931A8B01FACD41B42 /* Pods_ConnectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FE4A9F5A86B4D55B3D422E /* Pods_ConnectUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +94,85 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041B84491C26B08E2BEFE888 /* Pods-ConnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectTests/Pods-ConnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		17CF6CC356AE607D61D62798 /* Pods_Connect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Connect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B725E5146001564DD46F466 /* Pods-Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Connect/Pods-Connect.debug.xcconfig"; sourceTree = "<group>"; };
+		662BA77B27D7FAD175B26E26 /* Pods-ConnectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectUITests/Pods-ConnectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E0288981D511845004B6187 /* DownloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		6E28B7DE1D469A820029E776 /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		6E28B7DF1D469A820029E776 /* DraggableViewBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableViewBackground.swift; sourceTree = "<group>"; };
+		6E28B7E01D469A820029E776 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		6E28B7E51D469C670029E776 /* Airport1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Airport1.png; sourceTree = "<group>"; };
+		6E28B7E61D469C670029E776 /* Airport2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Airport2.png; sourceTree = "<group>"; };
+		6E28B7E81D469C670029E776 /* Arrow_Left2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow_Left2.png; sourceTree = "<group>"; };
+		6E28B7E91D469C670029E776 /* Arrow_Right2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow_Right2.png; sourceTree = "<group>"; };
+		6E28B7EA1D469C670029E776 /* Balloon over Desert 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Balloon over Desert 1.jpg"; sourceTree = "<group>"; };
+		6E28B7EB1D469C670029E776 /* banner_dubai_Al_Arab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner_dubai_Al_Arab.jpg; sourceTree = "<group>"; };
+		6E28B7EC1D469C670029E776 /* bg-addbutton-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-addbutton-highlighted.png"; sourceTree = "<group>"; };
+		6E28B7ED1D469C670029E776 /* bg-addbutton-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-addbutton-highlighted@2x.png"; sourceTree = "<group>"; };
+		6E28B7EE1D469C670029E776 /* bg-addbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-addbutton.png"; sourceTree = "<group>"; };
+		6E28B7EF1D469C670029E776 /* bg-addbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-addbutton@2x.png"; sourceTree = "<group>"; };
+		6E28B7F01D469C670029E776 /* bg-menuitem-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-menuitem-highlighted.png"; sourceTree = "<group>"; };
+		6E28B7F11D469C670029E776 /* bg-menuitem-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-menuitem-highlighted@2x.png"; sourceTree = "<group>"; };
+		6E28B7F21D469C670029E776 /* bg-menuitem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-menuitem.png"; sourceTree = "<group>"; };
+		6E28B7F31D469C670029E776 /* bg-menuitem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-menuitem@2x.png"; sourceTree = "<group>"; };
+		6E28B7F41D469C670029E776 /* Burj_Al_Arab400*300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Burj_Al_Arab400*300.jpg"; sourceTree = "<group>"; };
+		6E28B7F51D469C670029E776 /* burj_khalifa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burj_khalifa.jpg; sourceTree = "<group>"; };
+		6E28B7F61D469C670029E776 /* burj-al-arab-dubai-960x640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "burj-al-arab-dubai-960x640.jpg"; sourceTree = "<group>"; };
+		6E28B7F91D469C670029E776 /* Desertsafari.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Desertsafari.jpg; sourceTree = "<group>"; };
+		6E28B7FA1D469C670029E776 /* DSF.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSF.jpeg; sourceTree = "<group>"; };
+		6E28B7FB1D469C670029E776 /* dubai_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dubai_icon.png; sourceTree = "<group>"; };
+		6E28B8071D469C670029E776 /* facebook_Friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_Friends.png; sourceTree = "<group>"; };
+		6E28B8081D469C670029E776 /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook.png; sourceTree = "<group>"; };
+		6E28B80B1D469C670029E776 /* icon-plus-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-plus-highlighted.png"; sourceTree = "<group>"; };
+		6E28B80C1D469C670029E776 /* icon-plus-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-plus-highlighted@2x.png"; sourceTree = "<group>"; };
+		6E28B80D1D469C670029E776 /* icon-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-plus.png"; sourceTree = "<group>"; };
+		6E28B80E1D469C670029E776 /* icon-plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-plus@2x.png"; sourceTree = "<group>"; };
+		6E28B80F1D469C670029E776 /* icon-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-star.png"; sourceTree = "<group>"; };
+		6E28B8101D469C670029E776 /* icon-star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-star@2x.png"; sourceTree = "<group>"; };
+		6E28B8131D469C670029E776 /* like_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like_icon.png; sourceTree = "<group>"; };
+		6E28B8141D469C670029E776 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		6E28B8151D469C670029E776 /* loc1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loc1.jpeg; sourceTree = "<group>"; };
+		6E28B8161D469C670029E776 /* loc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loc2.png; sourceTree = "<group>"; };
+		6E28B8171D469C670029E776 /* Metro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Metro.png; sourceTree = "<group>"; };
+		6E28B8181D469C670029E776 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		6E28B81A1D469C670029E776 /* Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plus.png; sourceTree = "<group>"; };
+		6E28B81B1D469C670029E776 /* plus1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus1.png; sourceTree = "<group>"; };
+		6E28B81C1D469C670029E776 /* popular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popular.png; sourceTree = "<group>"; };
+		6E28B81D1D469C670029E776 /* RedAlert.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedAlert.jpeg; sourceTree = "<group>"; };
+		6E28B81E1D469C670029E776 /* Share.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Share.jpeg; sourceTree = "<group>"; };
+		6E28B81F1D469C670029E776 /* silhouette-desert-safari.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silhouette-desert-safari.jpg"; sourceTree = "<group>"; };
+		6E28B8211D469C670029E776 /* Ski-Dubai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ski-Dubai.jpg"; sourceTree = "<group>"; };
+		6E28B8221D469C670029E776 /* SkyDive_Dubai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SkyDive_Dubai.jpg; sourceTree = "<group>"; };
+		6E28B8231D469C670029E776 /* Sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sunny.png; sourceTree = "<group>"; };
+		6E28B8241D469C670029E776 /* Uber.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uber.jpeg; sourceTree = "<group>"; };
+		6E28B8251D469C670029E776 /* uber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uber.png; sourceTree = "<group>"; };
+		6E53DBF41D45484B000D28E3 /* Connect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Connect-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E53DC031D454AFA000D28E3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E53DC051D454B3B000D28E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E66045E1D454D0C00941650 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E66045F1D454D0C00941650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E6604611D454D0C00941650 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		6E6604631D454D0C00941650 /* Connect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Connect.xcdatamodel; sourceTree = "<group>"; };
+		6E6604641D454D0C00941650 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E6604711D454F3A00941650 /* Contants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		6E6604721D454F3B00941650 /* InterestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestVC.swift; sourceTree = "<group>"; };
 		6EA05D4C1D3D67AB0040D163 /* Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connect.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EA05D4F1D3D67AB0040D163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6EA05D511D3D67AB0040D163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6EA05D541D3D67AB0040D163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6EA05D571D3D67AB0040D163 /* Connect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Connect.xcdatamodel; sourceTree = "<group>"; };
 		6EA05D591D3D67AB0040D163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EA05D5C1D3D67AB0040D163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6EA05D5E1D3D67AB0040D163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EA05D631D3D67AB0040D163 /* ConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA05D671D3D67AB0040D163 /* ConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectTests.swift; sourceTree = "<group>"; };
 		6EA05D691D3D67AB0040D163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EA05D6E1D3D67AB0040D163 /* ConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA05D721D3D67AB0040D163 /* ConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectUITests.swift; sourceTree = "<group>"; };
 		6EA05D741D3D67AB0040D163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC5B69D1D5F4C7A00A7731C /* FBServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBServiceController.swift; sourceTree = "<group>"; };
+		73FE4A9F5A86B4D55B3D422E /* Pods_ConnectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E50A85D453EF438E045F2B /* Pods-ConnectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectUITests/Pods-ConnectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB910745F8A068EB4FF0B8FC /* Pods_ConnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEEAB017EE658AE7DFB6E66 /* Pods-Connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connect.release.xcconfig"; path = "Pods/Target Support Files/Pods-Connect/Pods-Connect.release.xcconfig"; sourceTree = "<group>"; };
+		EF0C4D0653E3B2A1AC47617F /* Pods-ConnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectTests/Pods-ConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFC13F26DBB1FAB310AD4DA /* Pods_Connect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D8AF6143276EDDF5C957A6D /* Pods_ConnectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +196,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E682ABA931A8B01FACD41B42 /* Pods_ConnectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		279516C387FDF83DF35FAAD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17CF6CC356AE607D61D62798 /* Pods_Connect.framework */,
+				CB910745F8A068EB4FF0B8FC /* Pods_ConnectTests.framework */,
+				73FE4A9F5A86B4D55B3D422E /* Pods_ConnectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E0288971D511836004B6187 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6E0288981D511845004B6187 /* DownloadViewController.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		6E28B7DD1D469A670029E776 /* SwipeCards */ = {
+			isa = PBXGroup;
+			children = (
+				6E28B7DE1D469A820029E776 /* DraggableView.swift */,
+				6E28B7DF1D469A820029E776 /* DraggableViewBackground.swift */,
+				6E28B7E01D469A820029E776 /* OverlayView.swift */,
+			);
+			name = SwipeCards;
+			sourceTree = "<group>";
+		};
+		6E28B7E41D469C480029E776 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6E28B7E51D469C670029E776 /* Airport1.png */,
+				6E28B7E61D469C670029E776 /* Airport2.png */,
+				6E28B7E81D469C670029E776 /* Arrow_Left2.png */,
+				6E28B7E91D469C670029E776 /* Arrow_Right2.png */,
+				6E28B7EA1D469C670029E776 /* Balloon over Desert 1.jpg */,
+				6E28B7EB1D469C670029E776 /* banner_dubai_Al_Arab.jpg */,
+				6E28B7EC1D469C670029E776 /* bg-addbutton-highlighted.png */,
+				6E28B7ED1D469C670029E776 /* bg-addbutton-highlighted@2x.png */,
+				6E28B7EE1D469C670029E776 /* bg-addbutton.png */,
+				6E28B7EF1D469C670029E776 /* bg-addbutton@2x.png */,
+				6E28B7F01D469C670029E776 /* bg-menuitem-highlighted.png */,
+				6E28B7F11D469C670029E776 /* bg-menuitem-highlighted@2x.png */,
+				6E28B7F21D469C670029E776 /* bg-menuitem.png */,
+				6E28B7F31D469C670029E776 /* bg-menuitem@2x.png */,
+				6E28B7F41D469C670029E776 /* Burj_Al_Arab400*300.jpg */,
+				6E28B7F51D469C670029E776 /* burj_khalifa.jpg */,
+				6E28B7F61D469C670029E776 /* burj-al-arab-dubai-960x640.jpg */,
+				6E28B7F91D469C670029E776 /* Desertsafari.jpg */,
+				6E28B7FA1D469C670029E776 /* DSF.jpeg */,
+				6E28B7FB1D469C670029E776 /* dubai_icon.png */,
+				6E28B8071D469C670029E776 /* facebook_Friends.png */,
+				6E28B8081D469C670029E776 /* Facebook.png */,
+				6E28B80B1D469C670029E776 /* icon-plus-highlighted.png */,
+				6E28B80C1D469C670029E776 /* icon-plus-highlighted@2x.png */,
+				6E28B80D1D469C670029E776 /* icon-plus.png */,
+				6E28B80E1D469C670029E776 /* icon-plus@2x.png */,
+				6E28B80F1D469C670029E776 /* icon-star.png */,
+				6E28B8101D469C670029E776 /* icon-star@2x.png */,
+				6E28B8131D469C670029E776 /* like_icon.png */,
+				6E28B8141D469C670029E776 /* like.png */,
+				6E28B8151D469C670029E776 /* loc1.jpeg */,
+				6E28B8161D469C670029E776 /* loc2.png */,
+				6E28B8171D469C670029E776 /* Metro.png */,
+				6E28B8181D469C670029E776 /* minus.png */,
+				6E28B81A1D469C670029E776 /* Plus.png */,
+				6E28B81B1D469C670029E776 /* plus1.png */,
+				6E28B81C1D469C670029E776 /* popular.png */,
+				6E28B81D1D469C670029E776 /* RedAlert.jpeg */,
+				6E28B81E1D469C670029E776 /* Share.jpeg */,
+				6E28B81F1D469C670029E776 /* silhouette-desert-safari.jpg */,
+				6E28B8211D469C670029E776 /* Ski-Dubai.jpg */,
+				6E28B8221D469C670029E776 /* SkyDive_Dubai.jpg */,
+				6E28B8231D469C670029E776 /* Sunny.png */,
+				6E28B8241D469C670029E776 /* Uber.jpeg */,
+				6E28B8251D469C670029E776 /* uber.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		6EA05D431D3D67AB0040D163 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +290,9 @@
 				6EA05D661D3D67AB0040D163 /* ConnectTests */,
 				6EA05D711D3D67AB0040D163 /* ConnectUITests */,
 				6EA05D4D1D3D67AB0040D163 /* Products */,
+				D6FCA9DF192BD6208C803231 /* Pods */,
+				279516C387FDF83DF35FAAD3 /* Frameworks */,
+				6E53DBF41D45484B000D28E3 /* Connect-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +309,22 @@
 		6EA05D4E1D3D67AB0040D163 /* Connect */ = {
 			isa = PBXGroup;
 			children = (
-				6EA05D4F1D3D67AB0040D163 /* AppDelegate.swift */,
-				6EA05D511D3D67AB0040D163 /* ViewController.swift */,
+				6E0288971D511836004B6187 /* Utils */,
+				6E28B7E41D469C480029E776 /* Images */,
+				6E28B7DD1D469A670029E776 /* SwipeCards */,
+				6E6604711D454F3A00941650 /* Contants.swift */,
+				6E6604721D454F3B00941650 /* InterestVC.swift */,
+				6E66045E1D454D0C00941650 /* AppDelegate.swift */,
+				6E66045F1D454D0C00941650 /* Assets.xcassets */,
+				6E6604611D454D0C00941650 /* Base.lproj */,
+				6E6604621D454D0C00941650 /* Connect.xcdatamodeld */,
+				6E6604641D454D0C00941650 /* ViewController.swift */,
+				6EC5B69D1D5F4C7A00A7731C /* FBServiceController.swift */,
+				6E53DC051D454B3B000D28E3 /* GoogleService-Info.plist */,
+				6E53DC031D454AFA000D28E3 /* Info.plist */,
 				6EA05D531D3D67AB0040D163 /* Main.storyboard */,
 				6EA05D591D3D67AB0040D163 /* Assets.xcassets */,
 				6EA05D5B1D3D67AB0040D163 /* LaunchScreen.storyboard */,
-				6EA05D5E1D3D67AB0040D163 /* Info.plist */,
-				6EA05D561D3D67AB0040D163 /* Connect.xcdatamodeld */,
 			);
 			path = Connect;
 			sourceTree = "<group>";
@@ -128,6 +347,19 @@
 			path = ConnectUITests;
 			sourceTree = "<group>";
 		};
+		D6FCA9DF192BD6208C803231 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B725E5146001564DD46F466 /* Pods-Connect.debug.xcconfig */,
+				ECEEAB017EE658AE7DFB6E66 /* Pods-Connect.release.xcconfig */,
+				EF0C4D0653E3B2A1AC47617F /* Pods-ConnectTests.debug.xcconfig */,
+				041B84491C26B08E2BEFE888 /* Pods-ConnectTests.release.xcconfig */,
+				B1E50A85D453EF438E045F2B /* Pods-ConnectUITests.debug.xcconfig */,
+				662BA77B27D7FAD175B26E26 /* Pods-ConnectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +367,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EA05D771D3D67AB0040D163 /* Build configuration list for PBXNativeTarget "Connect" */;
 			buildPhases = (
+				B6020109B7155E2B2BDC51D6 /* [CP] Check Pods Manifest.lock */,
 				6EA05D481D3D67AB0040D163 /* Sources */,
 				6EA05D491D3D67AB0040D163 /* Frameworks */,
 				6EA05D4A1D3D67AB0040D163 /* Resources */,
+				8DCD84FBACCAED0008A1A9B8 /* [CP] Embed Pods Frameworks */,
+				B72FF642418E985AF626A19F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +387,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EA05D7A1D3D67AB0040D163 /* Build configuration list for PBXNativeTarget "ConnectTests" */;
 			buildPhases = (
+				E4972F78A36488E538B5E040 /* [CP] Check Pods Manifest.lock */,
 				6EA05D5F1D3D67AB0040D163 /* Sources */,
 				6EA05D601D3D67AB0040D163 /* Frameworks */,
 				6EA05D611D3D67AB0040D163 /* Resources */,
+				0F74FD77A82D6E914EC736B3 /* [CP] Embed Pods Frameworks */,
+				520C68064914525EC88D777D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +408,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EA05D7D1D3D67AB0040D163 /* Build configuration list for PBXNativeTarget "ConnectUITests" */;
 			buildPhases = (
+				D0EF921CA60490D0F4E1324C /* [CP] Check Pods Manifest.lock */,
 				6EA05D6A1D3D67AB0040D163 /* Sources */,
 				6EA05D6B1D3D67AB0040D163 /* Frameworks */,
 				6EA05D6C1D3D67AB0040D163 /* Resources */,
+				1FA12B8E0933881EB96B0B3D /* [CP] Copy Pods Resources */,
+				BDE8507C3FE0D3E2A9DFEE86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,13 +437,16 @@
 				TargetAttributes = {
 					6EA05D4B1D3D67AB0040D163 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 					};
 					6EA05D621D3D67AB0040D163 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 6EA05D4B1D3D67AB0040D163;
 					};
 					6EA05D6D1D3D67AB0040D163 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 6EA05D4B1D3D67AB0040D163;
 					};
 				};
@@ -232,9 +476,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E28B8501D469C670029E776 /* icon-plus-highlighted@2x.png in Resources */,
+				6E28B8381D469C670029E776 /* Burj_Al_Arab400*300.jpg in Resources */,
+				6E28B82D1D469C670029E776 /* Arrow_Right2.png in Resources */,
 				6EA05D5D1D3D67AB0040D163 /* LaunchScreen.storyboard in Resources */,
+				6E28B85C1D469C670029E776 /* minus.png in Resources */,
+				6E28B8341D469C670029E776 /* bg-menuitem-highlighted.png in Resources */,
+				6E28B82A1D469C670029E776 /* Airport2.png in Resources */,
+				6E28B84C1D469C670029E776 /* Facebook.png in Resources */,
+				6E28B8511D469C670029E776 /* icon-plus.png in Resources */,
+				6E28B82F1D469C670029E776 /* banner_dubai_Al_Arab.jpg in Resources */,
+				6E28B8311D469C670029E776 /* bg-addbutton-highlighted@2x.png in Resources */,
+				6E28B85B1D469C670029E776 /* Metro.png in Resources */,
+				6E28B8521D469C670029E776 /* icon-plus@2x.png in Resources */,
+				6E28B8361D469C670029E776 /* bg-menuitem.png in Resources */,
+				6E28B8351D469C670029E776 /* bg-menuitem-highlighted@2x.png in Resources */,
+				6E28B8581D469C670029E776 /* like.png in Resources */,
+				6E28B8531D469C670029E776 /* icon-star.png in Resources */,
+				6E28B8291D469C670029E776 /* Airport1.png in Resources */,
+				6E28B8331D469C670029E776 /* bg-addbutton@2x.png in Resources */,
+				6E28B8621D469C670029E776 /* Share.jpeg in Resources */,
+				6E28B8321D469C670029E776 /* bg-addbutton.png in Resources */,
 				6EA05D5A1D3D67AB0040D163 /* Assets.xcassets in Resources */,
+				6E28B85F1D469C670029E776 /* plus1.png in Resources */,
+				6E28B82E1D469C670029E776 /* Balloon over Desert 1.jpg in Resources */,
+				6E28B8681D469C670029E776 /* Uber.jpeg in Resources */,
+				6E66046A1D454D0C00941650 /* Base.lproj in Resources */,
+				6E28B8301D469C670029E776 /* bg-addbutton-highlighted.png in Resources */,
+				6E28B8661D469C670029E776 /* SkyDive_Dubai.jpg in Resources */,
+				6E28B83A1D469C670029E776 /* burj-al-arab-dubai-960x640.jpg in Resources */,
+				6E28B83E1D469C670029E776 /* DSF.jpeg in Resources */,
+				6E28B83F1D469C670029E776 /* dubai_icon.png in Resources */,
+				6E28B8391D469C670029E776 /* burj_khalifa.jpg in Resources */,
 				6EA05D551D3D67AB0040D163 /* Main.storyboard in Resources */,
+				6E28B8601D469C670029E776 /* popular.png in Resources */,
+				6E28B8571D469C670029E776 /* like_icon.png in Resources */,
+				6E28B8371D469C670029E776 /* bg-menuitem@2x.png in Resources */,
+				6E53DC041D454AFB000D28E3 /* Info.plist in Resources */,
+				6E28B84B1D469C670029E776 /* facebook_Friends.png in Resources */,
+				6E28B8611D469C670029E776 /* RedAlert.jpeg in Resources */,
+				6E6604681D454D0C00941650 /* Assets.xcassets in Resources */,
+				6E28B83D1D469C670029E776 /* Desertsafari.jpg in Resources */,
+				6E28B82C1D469C670029E776 /* Arrow_Left2.png in Resources */,
+				6E28B8671D469C670029E776 /* Sunny.png in Resources */,
+				6E28B85A1D469C670029E776 /* loc2.png in Resources */,
+				6E28B85E1D469C670029E776 /* Plus.png in Resources */,
+				6E28B84F1D469C670029E776 /* icon-plus-highlighted.png in Resources */,
+				6E28B8691D469C670029E776 /* uber.png in Resources */,
+				6E28B8591D469C670029E776 /* loc1.jpeg in Resources */,
+				6E28B8541D469C670029E776 /* icon-star@2x.png in Resources */,
+				6E28B8651D469C670029E776 /* Ski-Dubai.jpg in Resources */,
+				6E28B8631D469C670029E776 /* silhouette-desert-safari.jpg in Resources */,
+				6E53DC061D454B3B000D28E3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +547,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F74FD77A82D6E914EC736B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectTests/Pods-ConnectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FA12B8E0933881EB96B0B3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectUITests/Pods-ConnectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		520C68064914525EC88D777D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectTests/Pods-ConnectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DCD84FBACCAED0008A1A9B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Connect/Pods-Connect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6020109B7155E2B2BDC51D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B72FF642418E985AF626A19F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Connect/Pods-Connect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE8507C3FE0D3E2A9DFEE86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectUITests/Pods-ConnectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0EF921CA60490D0F4E1324C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4972F78A36488E538B5E040 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6EA05D481D3D67AB0040D163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EA05D521D3D67AB0040D163 /* ViewController.swift in Sources */,
-				6EA05D501D3D67AB0040D163 /* AppDelegate.swift in Sources */,
-				6EA05D581D3D67AB0040D163 /* Connect.xcdatamodeld in Sources */,
+				6E28B7E31D469A820029E776 /* OverlayView.swift in Sources */,
+				6E28B7E11D469A820029E776 /* DraggableView.swift in Sources */,
+				6E66046C1D454D0C00941650 /* ViewController.swift in Sources */,
+				6E6604671D454D0C00941650 /* AppDelegate.swift in Sources */,
+				6E6604741D454F3B00941650 /* InterestVC.swift in Sources */,
+				6E28B7E21D469A820029E776 /* DraggableViewBackground.swift in Sources */,
+				6E6604731D454F3B00941650 /* Contants.swift in Sources */,
+				6E0288991D511845004B6187 /* DownloadViewController.swift in Sources */,
+				6E66046B1D454D0C00941650 /* Connect.xcdatamodeld in Sources */,
+				6EC5B69E1D5F4C7A00A7731C /* FBServiceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,68 +841,85 @@
 		};
 		6EA05D781D3D67AB0040D163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B725E5146001564DD46F466 /* Pods-Connect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Connect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anoop.Connect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Connect-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		6EA05D791D3D67AB0040D163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEEAB017EE658AE7DFB6E66 /* Pods-Connect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Connect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anoop.Connect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Connect-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		6EA05D7B1D3D67AB0040D163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0C4D0653E3B2A1AC47617F /* Pods-ConnectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ConnectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anoop.ConnectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Connect.app/Connect";
 			};
 			name = Debug;
 		};
 		6EA05D7C1D3D67AB0040D163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041B84491C26B08E2BEFE888 /* Pods-ConnectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ConnectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anoop.ConnectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Connect.app/Connect";
 			};
 			name = Release;
 		};
 		6EA05D7E1D3D67AB0040D163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E50A85D453EF438E045F2B /* Pods-ConnectUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ConnectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anoop.ConnectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Connect;
 			};
 			name = Debug;
 		};
 		6EA05D7F1D3D67AB0040D163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662BA77B27D7FAD175B26E26 /* Pods-ConnectUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ConnectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anoop.ConnectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Connect;
 			};
 			name = Release;
@@ -488,6 +943,7 @@
 				6EA05D791D3D67AB0040D163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EA05D7A1D3D67AB0040D163 /* Build configuration list for PBXNativeTarget "ConnectTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +952,7 @@
 				6EA05D7C1D3D67AB0040D163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EA05D7D1D3D67AB0040D163 /* Build configuration list for PBXNativeTarget "ConnectUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,16 +961,17 @@
 				6EA05D7F1D3D67AB0040D163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6EA05D561D3D67AB0040D163 /* Connect.xcdatamodeld */ = {
+		6E6604621D454D0C00941650 /* Connect.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6EA05D571D3D67AB0040D163 /* Connect.xcdatamodel */,
+				6E6604631D454D0C00941650 /* Connect.xcdatamodel */,
 			);
-			currentVersion = 6EA05D571D3D67AB0040D163 /* Connect.xcdatamodel */;
+			currentVersion = 6E6604631D454D0C00941650 /* Connect.xcdatamodel */;
 			path = Connect.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
